@@ -37,7 +37,7 @@ function Home() {
           red text away when "Ready!" is in the textbox.
         </b>
         <p>Are you ready to be a pokemon master?</p>
-        <input type="text" name="name" onChange={handleChange} />
+        <input type="text" name="name" onChange={handleChange} value={text} />
         {text !== "Ready" && (
           <span style={{ color: "red" }}>I am not ready yet!</span>
         )}
