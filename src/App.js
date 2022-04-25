@@ -7,10 +7,9 @@ function App() {
   return (
     <HashRouter>
       <div>
-        <Route exact path="/" component={Home}/>
-        <Route path="/pokedex" component={PokeDex}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/pokedex" component={PokeDex} />
       </div>
-      
     </HashRouter>
   );
 }
